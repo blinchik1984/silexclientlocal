@@ -1,0 +1,19 @@
+{
+    "name": "dunaev/silex-client-local",
+    "type": "library",
+    "require": {
+        "dunaev/silex-engine": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Alexander Dunaev",
+            "email": "alexander.dunaev@together.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "AdServer\\ClientLocal\\": "src"
+        }
+    }
+}
